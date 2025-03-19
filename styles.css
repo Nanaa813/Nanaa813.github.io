@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f0f8ff;
+    background-color: #e8f0fe;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,10 +11,10 @@ body {
 
 .cv-container {
     background-color: #ffffff;
-    width: 70%;
+    width: 75%;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
     overflow: hidden;
 }
 
@@ -22,7 +22,7 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-    background-color: #005b99;
+    background-color: #1e3a8a;
     padding: 20px;
     color: white;
     border-radius: 15px;
@@ -39,21 +39,21 @@ header {
 
 .header-info h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
 }
 
 .header-info p {
     margin: 5px 0;
-    color: #d1e7ff;
+    color: #cfe2ff;
 }
 
 button {
     background-color: #007bff;
     color: white;
-    padding: 8px 15px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     margin-top: 10px;
     transition: background 0.3s;
@@ -66,13 +66,13 @@ button:hover {
 .section {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #eaf2fb;
+    background-color: #dbeafe;
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
 h2 {
     margin-top: 0;
-    color: #003366;
+    color: #1e40af;
     font-weight: 600;
 }
