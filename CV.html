@@ -4,81 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Nana</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #e0f2ff;
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            background-color: #2196f3;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            position: relative;
-        }
-        .header img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 3px solid white;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-        .header h1, .header h3 {
-            margin: 0;
-        }
-        .content {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px;
-        }
-        .section {
-            background-color: #bbdefb;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 10px;
-            width: 45%;
-        }
-        h2 {
-            background-color: #1976d2;
-            color: white;
-            padding: 5px;
-            margin: -15px -15px 10px -15px;
-            border-radius: 10px 10px 0 0;
-            text-align: center;
-        }
-        ul, p {
-            margin-left: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="header">
-        <img src="profile.jpg" alt="Foto Profil">
-        <h1>Nama Lengkap</h1>
-        <h3>Ilmu Komputer</h3>
-    </div>
-    <div class="content">
+    <div class="cv-container">
+        <header>
+            <h1>Nana</h1>
+            <button onclick="downloadCV()">Download CV (PDF)</button>
+        </header>
         <div class="section">
             <h2>Data Pribadi</h2>
-            <p>Tempat, Tanggal Lahir: </p>
-            <p>Alamat: </p>
-            <p>Jenis Kelamin: </p>
-            <p>Email: </p>
+            <p>Tempat, Tanggal Lahir: Jakarta, 1 Januari 2003</p>
+            <p>Alamat: Jl. Mawar No. 12, Jakarta</p>
+            <p>Jenis Kelamin: Perempuan</p>
+            <p>Email: nana@example.com</p>
+        </div>
+        <div class="section">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>SMP Negeri 1 Jakarta (2015 - 2018)</li>
+                <li>SMA Negeri 2 Jakarta (2018 - 2021)</li>
+                <li>Ilmu Komputer, Universitas XYZ (2021 - sekarang)</li>
+            </ul>
         </div>
         <div class="section">
             <h2>Hobi</h2>
             <ul>
-                <li>Menulis & Blogging</li>
                 <li>Membaca Buku</li>
-                <li>Olahraga (berenang dan jogging)</li>
+                <li>Menggambar Digital</li>
+                <li>Menulis Cerita</li>
             </ul>
+        </div>
+        <div class="section">
             <h2>Organisasi dan Kegiatan</h2>
             <ul>
-                <li>PRAMUKA – Mengadakan kegiatan pelatihan keterampilan, bakti sosial, dll.</li>
+                <li>Anggota BEM Fakultas Ilmu Komputer</li>
+                <li>Komunitas Pengembangan Game Indie</li>
+                <li>Volunteer di TechTalks Jakarta</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Python, Java, HTML, CSS, JavaScript</li>
+                <li>Desain Grafis dengan Canva dan Photoshop</li>
+                <li>Analisis Data dengan SQL</li>
             </ul>
         </div>
     </div>
