@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tugas Platform Nana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* TUGAS 4: Media query manual */
+    @media (max-width: 600px) {
+      body {
+        background-color: #ffe0e0;
+      }
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TUGAS 1: Header + Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">NanaSite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#konten">Konten</a></li>
+          <li class="nav-item"><a class="nav-link" href="#layout">Layout</a></li>
+          <li class="nav-item"><a class="nav-link" href="#utilitas">Utilitas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- TUGAS 1: Konten Utama 2 Kolom -->
+  <div class="container mt-4" id="konten">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Selamat datang di NanaSite</h2>
+        <p>Ini adalah halaman contoh untuk Tugas Pemrograman Berbasis Platform yang mencakup penggunaan Bootstrap dan CSS responsif.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://via.placeholder.com/500x300" class="img-fluid rounded" alt="Contoh Gambar">
+      </div>
+    </div>
+  </div>
+
+  <!-- TUGAS 2: Layout Responsive 3 Kolom -->
+  <div class="container mt-5" id="layout">
+    <h3 class="mb-3">Tugas 2: Layout Responsif</h3>
+    <div class="row text-white">
+      <div class="col-lg-4 col-md-6 col-12 mb-3" style="background-color:#007bff;">Kolom 1</div>
+      <div class="col-lg-4 col-md-6 col-12 mb-3" style="background-color:#28a745;">Kolom 2</div>
+      <div class="col-lg-4 col-md-12 col-12 mb-3" style="background-color:#ffc107;">Kolom 3</div>
+    </div>
+  </div>
+
+  <!-- TUGAS 3: Utilitas Bootstrap -->
+  <div class="container mt-5" id="utilitas">
+    <h3 class="mb-3">Tugas 3: Utilitas Bootstrap</h3>
+
+    <!-- Elemen disembunyikan di layar kecil -->
+    <div class="alert alert-info d-none d-md-block">
+      Ini hanya terlihat di layar medium ke atas!
+    </div>
+
+    <!-- Margin dan padding responsif -->
+    <div class="p-3 m-2 bg-light border rounded">
+      Elemen ini punya margin dan padding responsif
+    </div>
+
+    <!-- Gambar responsif -->
+    <img src="https://via.placeholder.com/600x300" class="img-fluid rounded" alt="Gambar Responsif">
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nana | Tugas Pemrograman Berbasis Platform</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
